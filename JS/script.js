@@ -52,3 +52,8 @@ let teamMembers = [
 
 //todo Stampare su console le informazioni di nome, ruolo e la stringa della foto
 console.log(teamMembers);
+
+//todo Stampare le stesse informazioni su DOM sottoforma di stringhe
+
+for (var i=0; i < teamMembers.length  ; i++)
+  document.getElementById("myDiv").innerHTML += "Name: " + teamMembers[i].name + " Role: "+ teamMembers[i].role + " Image: "+ teamMembers[i].image + "<br>";
