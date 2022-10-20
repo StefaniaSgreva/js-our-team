@@ -10,7 +10,7 @@ Stampare le stesse informazioni su DOM sottoforma di stringhe
 BONUS 1:
 Trasformare la stringa foto in una immagine effettiva
 BONUS 2:
-Organizzare i singoli membri in card/schede e stilarli a vostro gusto :faccia_leggermente_sorridente:
+Organizzare i singoli membri in card/schede e stilarli a vostro gusto 
 BONUS 3:
 Aggiungere attraverso un form un membro al team
 */
@@ -21,32 +21,32 @@ let teamMembers = [
   {
     'name' : 'Wayne Barnett',
     'role' : 'Founder & CEO',
-    'image' : 'wayne-barnet-founder-ceo.jpg'
+    'image' : '<img src="./img/wayne-barnett-founder-ceo.jpg"></img>'
   },
   {
     'name' : 'Angela Caroll',
     'role' : 'Chef Editor',
-    'image' : 'angela-caroll-chef-editor.jpg'
+    'image' : '<img src="./img/angela-caroll-chief-editor.jpg"></img>'
   },
   {
     'name' : 'Walter Gordon',
     'role' : 'Office Manager',
-    'image' : 'walter-gordon-office-manager.jpg'
+    'image' : '<img src="./img/walter-gordon-office-manager.jpg"></img>'
   },
   {
     'name' : 'Angela Lopez',
     'role' : 'Social Media Manager',
-    'image' : 'angela-lopez-social-media-manager.jpg'
+    'image' : '<img src="./img/angela-lopez-social-media-manager.jpg"></img>'
   },
   {
     'name' : 'Scott Estrada',
     'role' : 'Developer',
-    'image' : 'scott-estrada-developer.jpg'
+    'image' : '<img src="./img/scott-estrada-developer.jpg"></img>'
   },
   {
     'name' : 'Barbara Ramos',
     'role' : 'Graphic Designer',
-    'image' : 'barbara-ramos-graphic-designer.jpg'
+    'image' : '<img src="./img/barbara-ramos-graphic-designer.jpg"></img>'
   }
 ];
 
@@ -55,5 +55,14 @@ console.log(teamMembers);
 
 //todo Stampare le stesse informazioni su DOM sottoforma di stringhe
 
-for (var i=0; i < teamMembers.length  ; i++)
+for (let i=0; i < teamMembers.length  ; i++)
   document.getElementById("myDiv").innerHTML += "Name: " + teamMembers[i].name + " Role: "+ teamMembers[i].role + " Image: "+ teamMembers[i].image + "<br>";
+
+//todo Trasformare la stringa foto in una immagine effettiva DONE
+
+
+
+
+
+
+
