@@ -4,18 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
      <!-- Bootstrap CSS -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <!-- My JS Library -->
+    <!-- Font awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- My JS Library -->
     <script src="./JS/myLibrary.js"></script>
      <!-- My CSS -->
      <link rel="stylesheet" href="./CSS/style.css">
     <title>Our Team</title>
 </head>
 <body>
-    <div id="myDiv"></div>
- 
-    
+    <!-- <div id="myDiv"></div> -->
+    <section id="team">
+        <div class="container">
+            <h2 class="section-title"> Meet Our Team</h2>
+            <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, vitae fuga nulla tenetur voluptatem debitis dolore voluptatibus ab id, at provident eum maxime animi adipisci nihil fugiat illum, soluta dolor?</p>
+            <div class="team-container">
+                <!-- prova card -->
+                <div class="card">
+                    <div class="circle">
+                        <div class="imgBox">
+                            <img src="./img/angela-caroll-chief-editor.jpg" alt="Angela Caroll">
+                        </div>
+                    </div>
+                    <div class="content">
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <h3>Angela Caroll</h3>
+                        <div class="textIcon">
+                            <h4>Social Media Manager</h4>
+                            <a href="#">
+                                <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                  </div>                   
+            </div>
+        </div>
+    </section>
+    <section id="add-member">
+        <div class="container">
+            <h2 class="section-title">Add New Members</h2>
+            <div class="form-container">
+                <label for="name">Name</label>
+                <input type="text" id="name">
+
+                <label for="role">Role</label>
+                <input type="text" id="role">
+
+                <label for="image">Image</label>
+                <input type="text" id="image">
+                <button type="button" id="addMemberButton">Add</button>
+            </div>
+            
+        </div>
+    </section>
+
    <script src="./JS/script.js"></script> 
 </body>
 </html>

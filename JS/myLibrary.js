@@ -38,7 +38,10 @@ const attention = document.createElement('div');
 attention.className = 'alert alert-danger';
 attention.innerText = msgError;
 return attention;
-
+}
+//*EMPTY INPUT
+function emptyImput(idInput) {
+  document.getElementById(idInput).value = "";
 }
 
  
