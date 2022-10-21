@@ -113,10 +113,11 @@ btnAdd.addEventListener("click", function () {
 });
 
 function addNewMember() {
+
   const newMember = {
     name: document.getElementById('name').value,
     role: document.getElementById('role').value,
-    img: document.getElementById('')
+    img: document.createElement('img')
   };
 
   teamMembers.push(newMember);

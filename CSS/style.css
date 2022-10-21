@@ -17,6 +17,9 @@ body{
     text-align: center;
     font-size: 34px;
 }
+.myshadow{
+    text-shadow: 2px 2px 2px red;
+}
 .section-description {
     line-height: 1.8;
     text-align: center;
@@ -75,6 +78,7 @@ body{
     width: 100%;
     height: 100%; */
     transition: all 0.5s;
+    cursor: pointer;
 }
 .imgBox img:hover{
     transform: scale(1.1);
@@ -127,9 +131,7 @@ body{
 label {
     margin-bottom: .30em;
 }
-  input,
-  select,
-  button {
+input{
     width: 100%;
     height: 3em;
     margin-bottom: 1em;
@@ -137,14 +139,42 @@ label {
     border: none;
     border-radius: 10px; 
 }
-button {
+textarea:focus, input:focus{
+     border: none; 
+}
+.mybtn{
+    border: none;
+    border-radius: 30px;
+    height: 2.5em;
     width: 30%;
     margin-top: 1.5em;
     font-size: 1.1rem;
-    border-radius: 10px;
     background-color: #e91e63;
     color: white;
     font-weight: bold;
+}
+.mybtn:hover{
+    transform: scale(1.1);
+    transition: 500ms;
+}
+.parent-div{
+    position: relative;
+}
+.parent-div input[type=file] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    font-size: 20px;
+}
+.btn-upload{
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 8px 25px;
+    border-radius: 10px;
+}
+.btn-upload:hover {
+    transform: scale(1,1);
 }
 
 

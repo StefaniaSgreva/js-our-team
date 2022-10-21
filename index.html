@@ -22,7 +22,7 @@
     <!-- <div id="myDiv"></div> -->
     <section id="team">
         <div class="container">
-            <h2 class="section-title"> Meet Our Team</h2>
+            <h2 class="section-title myshadow"> Meet Our Team</h2>
             <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, vitae fuga nulla tenetur voluptatem debitis dolore voluptatibus ab id, at provident eum maxime animi adipisci nihil fugiat illum, soluta dolor?</p>
             <div class="team-container">
                 <!-- prova card -->
@@ -59,8 +59,11 @@
                 <input type="text" id="role">
 
                 <label for="image">Image</label>
-                <input type="text" id="image">
-                <button type="button" id="addMemberButton">Add</button>
+                <div class="parent-div">
+                    <button class="btn-upload">Choose file</button>
+                    <input type="file" id="image">
+                  </div>
+                <button type="button" id="addMemberButton" class="mybtn">Add</button>
             </div>
             
         </div>
